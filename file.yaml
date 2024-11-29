@@ -1,0 +1,585 @@
+---
+- mobility_lf_permissions:
+    roles:
+      AAI-Lakehouse-Mobility-001:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-002:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-003:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-004:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_opal_allocation_level_1
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      - hs_core_scats_output
+      AAI-Lakehouse-Mobility-005:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_opal_allocation_level_1
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      AAI-Lakehouse-Mobility-006:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-007:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-008:
+      - hs_core_ctp_nrt_output
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output
+      - hs_core_customer_journeys_output_ext
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_dspark_output
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_opal_allocation_level_1
+      - hs_core_opal_allocation_level_3
+      - hs_core_opal_allocation_level_4
+      - hs_core_opal_allocation_output
+      - hs_core_opal_allocation_output_ext
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_opal_batch_output
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_scats_output
+      - rl_oam_temp
+      AAI-Lakehouse-Mobility-009:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-010:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-011:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-012:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_opal_allocation_level_1
+      - hs_core_opal_allocation_level_3
+      AAI-Lakehouse-Mobility-013:
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-014:
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-015:
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-016:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-017:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      AAI-Lakehouse-Mobility-018:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      AAI-Lakehouse-Mobility-019:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      AAI-Lakehouse-Mobility-020:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      AAI-Lakehouse-Mobility-021:
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      - hs_core_here_output_ext
+      AAI-Lakehouse-Mobility-022:
+      - hs_core_here_level_3
+      - hs_core_here_output_ext
+      AAI-Lakehouse-Mobility-023:
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      - hs_core_here_output_ext
+      AAI-Lakehouse-Mobility-024:
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      - hs_core_here_output_ext
+      AAI-Lakehouse-Mobility-035:
+      - hs_core_opal_allocation_level_1
+      - hs_core_opal_allocation_level_3
+      - hs_core_opal_allocation_level_4
+      - hs_core_opal_allocation_output
+      - hs_core_opal_allocation_output_ext
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_opal_batch_output
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_ctp_nrt_output
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output
+      - hs_core_customer_journeys_output_ext
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_dspark_output
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_opal_batch_level_1
+      - rl_oam_temp
+      AAI-Lakehouse-Mobility-036:
+      - hs_core_crs_level_1
+      - hs_core_crs_level_2
+      - hs_core_crs_level_3
+      - hs_core_crs_product
+      - hs_core_crs_output
+      - hs_core_crs_source
+      - hs_core_crs_sandpit
+      AAI-Lakehouse-Mobility-037:
+      - hs_core_crs_level_1
+      - hs_core_crs_level_2
+      - hs_core_crs_source
+      AAI-Lakehouse-Mobility-038:
+      - hs_core_crs_level_1
+      - hs_core_crs_level_2
+      - hs_core_crs_level_3
+      - hs_core_crs_product
+      - hs_core_crs_output
+      - hs_core_crs_source
+      - hs_core_crs_sandpit
+      aai-hs-jupyter-notebook-nonprod-ecs-task-role:
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      aai-hs-redshift-nonprod-spectrum-role:
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      aai-hs-redshift-nonprod-internal-spectrum-role:
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+
+    users:
+      aai-lakehouse-mobility-user-001:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-002:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-003:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-004:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_opal_allocation_level_1
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      - hs_core_scats_output
+      aai-lakehouse-mobility-user-005:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_opal_allocation_level_1
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      aai-lakehouse-mobility-user-006:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-007:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-008:
+      - hs_core_ctp_nrt_output
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output
+      - hs_core_customer_journeys_output_ext
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_dspark_output
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_opal_allocation_level_1
+      - hs_core_opal_allocation_level_3
+      - hs_core_opal_allocation_level_4
+      - hs_core_opal_allocation_output
+      - hs_core_opal_allocation_output_ext
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_opal_batch_output
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_scats_output
+      - rl_oam_temp
+      aai-lakehouse-mobility-user-009:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-010:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-011:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-012:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_opal_allocation_level_1
+      - hs_core_opal_allocation_level_3
+      aai-lakehouse-mobility-user-013:
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-014:
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-015:
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-016:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-017:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      aai-lakehouse-mobility-user-018:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      aai-lakehouse-mobility-user-019:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      aai-lakehouse-mobility-user-020:
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      aai-lakehouse-mobility-user-021:
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      - hs_core_here_output_ext
+      aai-lakehouse-mobility-user-022:
+      - hs_core_here_level_3
+      - hs_core_here_output_ext
+      aai-lakehouse-mobility-user-023:
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      - hs_core_here_output_ext
+      aai-lakehouse-mobility-user-024:
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output_ext
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_here_level_3
+      - hs_core_here_output_ext
+      aai-lakehouse-mobility-user-035:
+      - hs_core_opal_allocation_level_1
+      - hs_core_opal_allocation_level_3
+      - hs_core_opal_allocation_level_4
+      - hs_core_opal_allocation_output
+      - hs_core_opal_allocation_output_ext
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_opal_batch_output
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_ctp_nrt_output
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output
+      - hs_core_customer_journeys_output_ext
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_dspark_output
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_opal_batch_level_1
+      aai-lakehouse-mobility-user-036:
+      - hs_core_crs_level_1
+      - hs_core_crs_level_2
+      - hs_core_crs_level_3
+      - hs_core_crs_output
+      - hs_core_crs_source
+      - hs_core_crs_sandpit
+      aai-lakehouse-mobility-user-037:
+      - hs_core_crs_level_1
+      - hs_core_crs_level_2
+      - hs_core_crs_source
+      aai-lakehouse-mobility-user-038:
+      - hs_core_crs_level_1
+      - hs_core_crs_level_2
+      - hs_core_crs_level_3
+      - hs_core_crs_output
+      - hs_core_crs_source
+      - hs_core_crs_sandpit
+      aai-hs-selfserviceapp-nonprod:
+      - hs_core_opal_batch_level_1
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_opal_batch_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_dspark_output
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output
+      - hs_core_customer_journeys_output_ext
+      - hs_core_ctp_nrt_output
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_scats_output
+      - hs_core_opal_allocation_level_1
+      - hs_core_opal_allocation_level_3
+      - hs_core_opal_allocation_level_4
+      - hs_core_opal_allocation_output
+      - hs_core_opal_allocation_output_ext
+      aai-hs-selfserviceapp-bido-nonprod:
+      - hs_core_opal_batch_level_1
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_opal_batch_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_dspark_output
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output
+      - hs_core_customer_journeys_output_ext
+      - hs_core_ctp_nrt_output
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_scats_output
+      - hs_core_opal_allocation_level_1
+      - hs_core_opal_allocation_level_3
+      - hs_core_opal_allocation_level_4
+      - hs_core_opal_allocation_output
+      - hs_core_opal_allocation_output_ext
+      - rl_oam_temp
+      aai-hs-selfserviceapp-dataops-nonprod:
+      - hs_core_opal_batch_level_1
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_opal_batch_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_dspark_output
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output
+      - hs_core_customer_journeys_output_ext
+      - hs_core_ctp_nrt_output
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_scats_output
+      - hs_core_opal_allocation_level_1
+      - hs_core_opal_allocation_level_3
+      - hs_core_opal_allocation_level_4
+      - hs_core_opal_allocation_output
+      - hs_core_opal_allocation_output_ext
+      - rl_oam_temp
+      aai-hs-selfserviceapp-collibra-nonprod:
+      - hs_core_opal_batch_level_1
+      - hs_core_opal_batch_level_2
+      - hs_core_opal_batch_level_3
+      - hs_core_opal_batch_level_4
+      - hs_core_opal_batch_output
+      - hs_core_dspark_level_3
+      - hs_core_dspark_level_4
+      - hs_core_dspark_output
+      - hs_core_here_level_3
+      - hs_core_here_output
+      - hs_core_here_output_ext
+      - hs_core_customer_journeys_level_3
+      - hs_core_customer_journeys_level_4
+      - hs_core_customer_journeys_output
+      - hs_core_customer_journeys_output_ext
+      - hs_core_ctp_nrt_output
+      - hs_core_public_transport_output
+      - hs_core_reference_data_output
+      - hs_core_scats_output
+      - hs_core_opal_allocation_level_1
+      - hs_core_opal_allocation_level_3
+      - hs_core_opal_allocation_level_4
+      - hs_core_opal_allocation_output
+      - hs_core_opal_allocation_output_ext
+      - rl_oam_temp
