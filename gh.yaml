@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Lakeformation Table Permissions For Mobility Spoke Roles.
+
+Resources:
+
+  {% for name, databases in mobility_lf_permissions.roles.items() -%}
+  {%- for database in databases %}
+  {{ name|replace("-", "") }}Role{{ database|replace("_", "") }}DatabaseTablePermission:
+    Type: AWS::LakeFormation::Permissions
+    Properties:
+      DataLakePrincipal:
+        DataLakePrincipalIdentifier: !Sub arn:aws:iam::${AWS::AccountId}:role/{{ name }}
+      Permissions:
+          - SELECT
+          - DESCRIBE
+      Resource:
+        TableResource:
+          CatalogId: !Sub ${AWS::AccountId}
+          DatabaseName: {{ database }}
+          TableWildcard: { }
+  {%  endfor -%}
+  {% endfor %}
