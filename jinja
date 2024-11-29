@@ -1,0 +1,39 @@
+#!/bin/bash
+
+usage()
+{
+    echo "usage: <script.sh> <sourcefile.yml> <env> <datafile.json>"
+}
+
+if [ "$#" -ne 3 ]; then
+    echo "Expected number of parameters are three. Check below for guidance..."
+    usage
+    exit 1
+fi
+
+filename=$1
+datafile=$3
+env=$2
+
+echo "Source template: $filename"
+echo "Parameter file: $datafile"
+mkdir -p ../templates/$env
+dest_file="../templates/$env/$filename"
+echo "Processed File:" $dest_file
+
+cat $filename | python j2.py $datafile > $dest_file
+
+
+import os
+import sys
+import yaml
+import jinja2
+
+data_file="../jinja/parameters/"+sys.argv[1]
+
+def my_function():
+  with open(data_file,'r') as f:
+    data =  yaml.safe_load(f)
+    return data[0]
+
+sys.stdout.write(jinja2.Template(sys.stdin.read()).render(my_function()))
